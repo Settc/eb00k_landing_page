@@ -1,3 +1,7 @@
+:root {
+    --main-bg-color: rgba(22, 102, 139, .8)
+}
+
 body {    
     margin: 0;    
 }
@@ -6,10 +10,15 @@ hr {
     margin: 0;
     border: 0;
     height: 7px;
-    background-color: rgba(22, 102, 139, 1);
+    background-color: var(--main-bg-color);
     
     
     
+}
+
+h2 {
+    
+    text-align: center;
 }
 
 .overlay {
@@ -30,11 +39,17 @@ hr {
 }
 
 .cta-container {
-    min-width: 300px;
-    background-color: rgba(22, 102, 139, 1);
+    min-width: 35rem;
+
+    margin-right: 4em;
+    margin-top: -4px;
+
+    border-radius: 5px;
+
+    background-color: var(--main-bg-color);
     color: rgb(209, 198, 198);
+
     z-index: 2;
-    margin-right: 2em;
     
     
 }
