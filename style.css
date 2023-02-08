@@ -1,7 +1,6 @@
 :root {
-    --main-bg-color: rgba(22, 102, 139, .8)
+    --main-bg-color: rgba(22, 102, 139, 1)
 }
-
 body {    
     margin: 0;    
 }
@@ -41,17 +40,27 @@ h2 {
 .cta-container {
     min-width: 35rem;
 
-    margin-right: 4em;
-    margin-top: -4px;
+    margin-right: 4em;    
 
-    border-radius: 5px;
+    border-radius: 5px;   
 
+    z-index: 1;    
+    
+}
+
+.cta-header {
     background-color: var(--main-bg-color);
     color: rgb(209, 198, 198);
-
+    padding-top: 12px;
+    margin-top: -2px;
     z-index: 2;
     
-    
+}
+
+.cta-image {
+    max-height: 300px;
+    margin-left: 8.5em;
+    margin-bottom: 2em;
 }
 
 .bg {
