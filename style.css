@@ -1,5 +1,7 @@
 :root {
-    --main-bg-color: rgba(22, 102, 139, 1)
+    --main-bg-color: rgba(99, 133, 166);
+    --second-bg-color: rgb(197, 184, 166);
+    font-family: 'Oswald', sans-serif;
 }
 body {    
     margin: 0;    
@@ -8,20 +10,26 @@ body {
 hr {
     margin: 0;
     border: 0;
-    height: 7px;
-    background-color: var(--main-bg-color);
-    
-    
-    
+    height: 9px;
+    background-color: var(--main-bg-color);    
 }
 
-h2 {
-    
+h2 {    
     text-align: center;
 }
 
-.overlay {
-    
+p {
+    display: inline;
+}
+
+form {
+    background-color: var(--second-bg-color);
+    border-top: 3px solid rgb(201, 194, 194);
+    padding: 20px;    
+    text-align: center;
+}
+
+.overlay {    
     height: 100vh;
     width: 100vw;
     background-color: rgba(10, 10, 10, .9);
@@ -33,17 +41,13 @@ h2 {
 .info {
     color: rgb(209, 198, 198);
     z-index: 2;
-    margin-left: 1em;
-    
+    margin-left: 1em;    
 }
 
 .cta-container {
     min-width: 35rem;
-
     margin-right: 4em;    
-
-    border-radius: 5px;   
-
+    
     z-index: 1;    
     
 }
@@ -79,5 +83,11 @@ h2 {
     gap: 3em;    
     max-width: 1800px;
     margin: 0 auto;
+}
+
+.form-container input {
+    
+    margin-left: 5px;
+    
 }
 
