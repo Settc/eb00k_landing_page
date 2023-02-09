@@ -84,9 +84,12 @@ button {
 
 .company-name {    
     font-size: 2em;
-    text-align: start;
+    color: var(--second-bg-color);
     font-family: 'Righteous', cursive;
     text-shadow: 3px 2px #558ABB;
+    z-index: 2;
+    position: absolute;
+    left: 2em;
 }
 
 .info {
@@ -98,7 +101,7 @@ button {
 }
 
 .cta-container {
-    min-width: 35rem;    
+    min-width: 35em;    
     z-index: 1;   
     margin-right: 3em;
 }
@@ -133,3 +136,4 @@ button {
     margin-top: .7em;
     text-align: left;
 }
+
