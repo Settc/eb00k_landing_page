@@ -71,6 +71,7 @@ button {
     gap: 3em;    
     max-width: 1400px;
     margin: 0 auto;
+    
 }
 
 .overlay {    
@@ -83,13 +84,19 @@ button {
 }
 
 .company-name {    
-    font-size: 2em;
+    font-size: 3em;
     color: var(--second-bg-color);
     font-family: 'Righteous', cursive;
-    text-shadow: 3px 2px #558ABB;
+    text-shadow: 3px 2px #558ABB;       
     z-index: 2;
+    margin-left: .5em;
+    border: 2px solid var(--second-bg-color);
+    padding: 5px;
+    border-radius: 50%;
     position: absolute;
-    left: 2em;
+    top: 0;
+    
+    
 }
 
 .info {
@@ -98,6 +105,7 @@ button {
     z-index: 2;
     transform: translateY(10%);
     margin: auto 2em;
+    padding-top: 7em;
 }
 
 .cta-container {
@@ -109,10 +117,11 @@ button {
 .cta-header {
     background-color: var(--main-bg-color);
     color: rgb(209, 198, 198);
-    padding-top: 12px;
+    padding-top: 32px;
     margin-top: -2px;
     text-align: center;
     z-index: 2;
+    
     
 }
 
