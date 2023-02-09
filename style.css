@@ -19,8 +19,13 @@ hr {
     background-color: var(--main-bg-color);    
 }
 
+h1 {
+    font-size: 2.2em;
+}
+
 h2 {    
     text-align: center;
+    font-size: 2em;
 }
 
 p {
@@ -49,14 +54,14 @@ input {
 }
 
 button {
-    margin-top: 2em;
-    padding: 1em 15.5em;
+    margin-top: 1em;
+    padding: .5em 4.2em;
     border-radius: 4px;
     border: none;
-    background-color: rgb(34, 255, 82);
+    background-color: rgb(59, 238, 35);
     color: whitesmoke;
     font-weight: 800;
-    
+    font-size: 2em;
 }
 
 .container {    
