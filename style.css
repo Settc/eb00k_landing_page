@@ -36,11 +36,12 @@ form {
 
 button {
     margin-top: 2em;
-    padding: 1em 16.1em;
+    padding: 1em 15.5em;
     border-radius: 4px;
     border: none;
-    background-color: rgb(48, 216, 84);
+    background-color: rgb(34, 255, 82);
     color: whitesmoke;
+    font-weight: 800;
     
 }
 
@@ -49,7 +50,7 @@ button {
     align-items: flex-start;
     justify-content: space-evenly;
     gap: 3em;    
-    max-width: 1800px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -78,9 +79,9 @@ button {
 }
 
 .cta-container {
-    min-width: 35rem;
-    margin-right: 4em;   
+    min-width: 35rem;    
     z-index: 1;   
+    margin-right: 3em;
 }
 
 .cta-header {
@@ -88,13 +89,14 @@ button {
     color: rgb(209, 198, 198);
     padding-top: 12px;
     margin-top: -2px;
+    text-align: center;
     z-index: 2;
     
 }
 
 .cta-image {
     max-height: 300px;
-    margin-left: 8.5em;
+    
     margin-bottom: 2em;
 }
 
@@ -125,5 +127,6 @@ input {
 }
 
 .form-block {
+    margin-top: .7em;
     text-align: left;
 }
