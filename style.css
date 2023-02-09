@@ -5,7 +5,7 @@
 }
 
 html {
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 body {    
@@ -32,6 +32,20 @@ form {
     border-top: 3px solid rgb(201, 194, 194);
     padding: 20px;    
     text-align: center;
+    font-family: 'Yantramanav', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+label {
+    color:black;
+    
+}
+
+input {
+    padding: 10px 30px; 
+    border-radius: 2px;
 }
 
 button {
@@ -109,22 +123,6 @@ button {
     
 }
 
-form {
-    font-family: 'Yantramanav', sans-serif;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-label {
-    color:black;
-    
-}
-
-input {
-    padding: 10px 30px; 
-    border-radius: 2px;
-}
 
 .form-block {
     margin-top: .7em;
